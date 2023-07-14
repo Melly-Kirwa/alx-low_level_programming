@@ -9,11 +9,11 @@ int main(void)
 {
 	int a = 0;
 
-	do
+	while (a < 10)
 	{
 		putchar('0' + a);
-		a = a + 1;
-	}while (a < 10);
+		a++;
+	}
 	putchar('\n');
 	return (0);
 }
