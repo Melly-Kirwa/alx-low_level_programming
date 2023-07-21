@@ -8,8 +8,8 @@
 int main(void)
 {
 	long int num, factor;
+	
 	num = 612852475143;
-
 	for (factor = 2; factor <= num; factor++)
 	{
 		if (num % factor == 0)
