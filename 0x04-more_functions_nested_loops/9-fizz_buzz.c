@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include "main.h"
 
 /**
  * main - prints our 1-100 and replaces multiples of 3 with Fizz and for
@@ -23,6 +22,6 @@ int main(void)
 		else
 			printf("%d ", x);
 	}
-	putchar('\n');
+	printf("\n");
 	return (0);
 }
