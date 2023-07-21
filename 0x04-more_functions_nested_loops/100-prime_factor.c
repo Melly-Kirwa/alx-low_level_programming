@@ -7,17 +7,17 @@
 
 int main(void)
 {
-	long int num, factor;
-	
-	num = 612852475143;
-	for (factor = 2; factor <= num; factor++)
+	long int n, pf;
+
+	n = 612852475143;
+	for (pf = 2; pf <= n; pf++)
 	{
-		if (num % factor == 0)
+		if (n % pf == 0)
 		{
-			num /= factor;
-			factor--;
+			n /= pf;
+			pf--;
 		}
 	}
-	printf("%ld\n", factor);
+	printf("%ld\n", pf);
 	return (0);
 }
