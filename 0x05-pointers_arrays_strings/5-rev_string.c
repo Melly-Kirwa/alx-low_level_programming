@@ -1,10 +1,11 @@
 #include "main.h"
 
 /**
- * rev_string - reverses a string
- * @s: pointer toa the string
- * Return: nothing
+ * _strlen - calculates the length of a string
+ * @s: pointer to the string
+ * Return: interger count
  */
+
 int _strlen(char *s)
 {
 	int count;
@@ -16,6 +17,12 @@ int _strlen(char *s)
 	}
 	return (count);
 }
+
+/**
+ * rev_string - reverses the string
+ * @s: pointer to the string
+ * Return: nothing
+ */
 
 void rev_string(char *s)
 {
