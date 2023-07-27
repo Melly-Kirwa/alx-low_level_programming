@@ -18,9 +18,10 @@ char *leet(char *str)
 	{
 		for (j = 0; j < 5; j++)
 		{
-			if ((str[i] = rep_upp[j]) || (str[i] == rep_low[j]))
+			if (str[i] == rep_upp[j] || str[i] == rep_low[j])
 			{
 				str[i] = rep_int[j];
+				break;
 			}
 		}
 		i++;
