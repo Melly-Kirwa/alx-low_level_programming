@@ -2,8 +2,8 @@
 
 /**
  * *leet - takes a string of input and performs 1337 encoding
- * @str: input string
- * Return: pointer to the ecoded string
+ * @str: input string to be encoded.
+ * Return: pointer to the encoded string
  */
 
 char *leet(char *str)
