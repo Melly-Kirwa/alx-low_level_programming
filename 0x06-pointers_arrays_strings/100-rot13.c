@@ -8,8 +8,7 @@
 
 char *rot13(char *str)
 {
-	int j;
-	int i = 0;
+	int i = 0, j;
 	char alp[] = {"ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz"};
 	char r_alp[] ={"NOPQRSTUVWXYZABCDEFGHIJKLMnopqrstuvwxyzabcdefghijklm"};
 
