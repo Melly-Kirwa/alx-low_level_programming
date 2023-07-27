@@ -16,7 +16,11 @@ char *cap_string(char *str)
 	{
 		for (j = 0; j < 13; j++)
 		{
-			if (str[i] == sep_words[j])
+			if (str[i] == sep_words[1])
+			{
+				str[i] = sep_words[0];
+			}
+			else if (str[i] == sep_words[j])
 			{
 				if (str[i + 1] >= 97 && str[i + 1] <= 122)
 				{
